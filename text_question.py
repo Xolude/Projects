@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 import email, time
 
 user = "your_email"  #Make sure you have POP enabled for external apps with google, as well as having IMAP enabled
-pas = "your_password"
+pas = "your_password" #https://support.google.com/mail/answer/7104828?hl=en <- Use this to enable POP
 phonenumber = "4068905642" #Don't forget area code
 sms_gateway = (str(phonenumber) + "@vtext.com") #Change suffix "@vtext" to your corresponding provider
 smtp = "smtp.gmail.com" 
